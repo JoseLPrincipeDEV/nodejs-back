@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Hello, World1');
+    res.send('Bienvenidos a SENATI');
 })
 
 app.listen(4000, () => {
