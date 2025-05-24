@@ -1,12 +1,11 @@
 {
   "name": "nodejs-back",
-  "type": "module",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "/src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js",
-    "start": "node index.js"
+    "dev": "nodemon src/index.ts",
+    "start": "node src/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +16,8 @@
   },
   "devDependencies": {
     "@types/express": "^5.0.2",
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
 }
