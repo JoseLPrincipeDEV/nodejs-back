@@ -1,11 +1,12 @@
-const express = require('express');
+import express from 'express';
 
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Bienvenidos a SENATI');
+    res.send('Hola SENATI');
 })
 
+const port = 4000;
 app.listen(4000, () => {
-    console.log('Servidor rodando na porta 4000');
+    console.log('Servidor rodando on port', port);
 });
